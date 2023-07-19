@@ -9,6 +9,7 @@ ENV pip_packages "ansible"
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
        apt-utils \
+       openssh-client \
        build-essential \
        locales \
        libffi-dev \
